@@ -1,0 +1,39 @@
+.list-ingles{
+    list-style: none;
+    padding: 0;
+}
+.list-ingles li{
+    font-size: 12px;
+}
+.list-ingles li:before{
+    content: "•"; /* Insert content that looks like bullets */
+    padding-right: 8px;
+    color: #CB1E28; /* Or a color you prefer */
+    font-size: 18px;
+    line-height: 16px;
+}
+ngb-tabset{
+    position: relative;
+    top: -40vh;
+}
+ngb-tab{
+    background-color: #FFF;
+}
+.imagenMaintab{
+    width: 100%;
+}
+.messagesStatus{
+    color: #EBEBEB;
+    font-size: 44px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+@media (max-width: 769px){
+    .tabsShow{
+        flex-direction: column;
+    }
+    .tabsShow .col-5, .tabsShow .col-7{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,48 @@
+.contenidoMarcotitulo h2{
+    color: #284AA0;
+    font-size: 26px;
+    line-height: 1;
+}
+.introduccionClase h3{
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+}
+.materialClase h3, .cicloClase h3, .horasClase h3, .nivelClase h3{
+    font-size: 12px;
+    font-weight: bold;
+    color: #333333;
+}
+.materialClase{
+    background-color: #F6F6F6;
+}
+.cicloClase{
+    background-color: #EDEDED;
+}
+.horasClase{
+    background-color: #DADADA;
+    text-align: center;
+}
+.nivelClase{
+    background-color: #C7C6C6;
+    text-align: center;
+}
+.contenidoMarcocontenido ul{
+    list-style: none;
+    padding: 0;
+}
+.contenidoMarcocontenido ul li{
+    font-size: 12px;
+}
+
+@media (max-width: 769px){
+    .contenidoMarcocontenido .d-flex{
+        flex-direction: column;
+    }
+    .contenidoMarcocontenido .d-flex .col, .contenidoMarcocontenido .d-flex .col-1{
+        max-width: 100%;
+        flex: 0 0 100%;
+        text-align: left;
+    }
+}
+    

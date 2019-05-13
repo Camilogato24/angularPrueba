@@ -1,0 +1,47 @@
+.bg-gray{
+    color: #5A6776;
+    font-size: 16px;
+}
+.bg-black{
+    color: #333333;
+    font-size: 32px;
+}
+.bg-azul{
+    color: #284AA0;
+    font-size: 16px;
+}
+.contenido-ingles p{
+    color: #333333;
+    font-size: 10px;
+}
+.content-text{
+    width: 70%;
+}
+.content-image img{
+    width: 100%;
+}
+.btnAzul{
+    background-color: #284AA0!important;
+    padding: 10px 20px;
+    color:  #fff;
+    border: none;
+}
+
+@media (max-width: 769px){
+    .content-image{
+        flex-direction: column;
+    }
+    .content-image .col-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .content-image .col-6 .img-fluid{
+        padding: 0!important;
+        height: 300px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .content-text{
+        margin-bottom: 50px;
+    }
+}

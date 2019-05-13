@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+.nav-pills{
+    border: 1px solid #D8D8D8;
+    border-bottom: 0;
+    background-color: #FFF;
+}
+.tab-content{
+    border: 1px solid #D8D8D8;
+    background: #FFF;
+}
+.tab-content > .active{
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    padding: 2rem;
+}
+.nav-pills li{
+    width: 25%;
+}
+.nav-pills li a{
+    color: #EBEBEB!important;
+    font-weight: 700;
+    transition: .3s ease all;
+    text-align: center;
+}
+.nav-pills li a.active{
+    border-bottom: 2px solid #284AA0!important;
+    border-radius: 0;
+    color: #284AA0!important;
+    background-color: #FFF!important;
+}
+
+@media (max-width: 600){
+    .content-logo p{
+        margin: 0;
+    }
+    #collapseExample{
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 9999999999999;
+    }
+}
+    

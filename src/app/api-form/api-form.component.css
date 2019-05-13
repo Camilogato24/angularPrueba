@@ -1,0 +1,61 @@
+.headerForm{
+    background-color: #F7F7F7;
+}
+.headerFormtop{
+    padding-top: 10vh;
+    height: 50vh;
+}
+.headerFormtop .azulContent{
+    background-color: #284AA0;
+}
+.contentHeaderleft h2{
+    color: #284AA0;
+}
+.contentHeaderright p{
+    color: #fff;
+}
+form{
+    width: 100%;
+    background: #FFF;
+    padding-top: 100px;
+}
+form .form-control{
+    border: 0;
+    border-bottom: 1px solid #EBEBEB;
+}
+form select.form-control, form input[type="date"].form-control{
+    color: #D8D8D8;
+}
+.containerForm{
+    position: relative;
+    top: -30vh;
+}
+.form-group label{
+    font-weight: 500;
+    font-size: 12px;
+}
+.form-group label span{
+    color: #CB1E28;
+}
+.btnInput{
+    border: none;
+    background: transparent;
+    color: #CB1E28;
+}
+@media (max-width: 769px){
+    .containerForm .top .col-6{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    .containerForm .col-6{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .contentHeaderleft h2{
+        font-size: 16px;
+    }
+    .contentHeaderright p{
+        font-size: 10px;
+    }   
+}
+    

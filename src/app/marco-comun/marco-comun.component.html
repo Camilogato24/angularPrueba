@@ -1,0 +1,43 @@
+<div class="contenidoMarco">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="contenidoMarcotitulo">
+          <h2 class="pb-4">Equivalencia con el Marco Común <br>  Europeo de Referencia (MCER)</h2>
+        </div>
+      </div>
+      <div class="col-12 contenidoMarcocontenido">
+        <div class="d-flex">
+            <div class="col introduccionClase p-1 pt-1 pb-1">
+                <h3>{{apertura}}</h3>
+              </div>
+              <div class="col materialClase pt-4 pb-4 p-4">
+                <h3>Material de estudio</h3>
+                <ul>
+                  <li class="pb-1" *ngFor="let material of materiales">{{material}}</li>
+                </ul>
+              </div>
+              <div class="col cicloClase pt-4 pb-4 p-4">
+                <h3>Ciclos</h3>
+                <ul>
+                  <li class="pb-1" *ngFor="let ciclo of ciclos">{{ciclo}}</li>
+                </ul>
+              </div>
+              <div class="col-1 horasClase pt-4 pb-4 pr-3 pl-3 ">
+                  <h3>Horas</h3>
+                  <ul>
+                    <li class="pb-1" *ngFor="let hora of horas">{{hora}}</li>
+                  </ul>
+              </div>
+              <div class="col-1 nivelClase pt-4 pb-4 pr-3 pl-3">
+                  <h3>Nivel MCER</h3>
+                  <ul>
+                    <li class="pb-1" *ngFor="let nivel of niveles">{{nivel}}</li>
+                  </ul>
+              </div>  
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
