@@ -63,6 +63,9 @@ a.navbar-brand{
     color: #FFF;
     transform: rotate(77deg);
 }
+.contentl-logo .btn-outline-primary{
+  display: block;
+}
 
 @media (max-width: 991px){
     .content-logo{
@@ -71,6 +74,9 @@ a.navbar-brand{
         display: flex;
         align-items: center;
         justify-content: space-between;
+    }
+    .contentl-logo .btn-outline-primary{
+      display: block;
     }
 }
 @media (max-width: 600px){
