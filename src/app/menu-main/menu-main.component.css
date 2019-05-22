@@ -74,6 +74,10 @@ a.navbar-brand{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        flex-direction: column;
+    }
+    #collapseExample{
+        width: 100%;
     }
     .contentl-logo .btn-outline-primary{
       display: block;
@@ -101,3 +105,8 @@ a.navbar-brand{
     }
 }
     
+@media (min-width: 992px){
+    .hidden-md{
+        display: none;
+    }
+}
